@@ -1,0 +1,40 @@
+# FastAPI and Web Server
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+python-multipart==0.0.6
+
+# Telegram Client
+pyrogram==2.0.106
+tgcrypto==1.2.5
+
+# Database
+asyncpg==0.29.0
+psycopg2-binary==2.9.9  # Optional: if you need sync PostgreSQL
+
+# HTTP Client
+httpx==0.25.1
+requests==2.31.0  # Backup HTTP client
+
+# Environment Variables
+python-dotenv==1.0.0
+
+# Utilities
+uuid6==2023.5.2  # Optional: for better UUID generation
+aiofiles==23.2.1  # For async file operations
+python-dateutil==2.8.2  # Date utilities
+
+# Logging and Monitoring
+colorlog==6.7.0  # Optional: colored logging
+structlog==23.2.0  # Optional: structured logging
+
+# Security
+cryptography==41.0.5  # For encryption
+PyJWT==2.8.0  # Optional: JWT tokens
+
+# Development Tools (Optional)
+pytest==7.4.3
+pytest-asyncio==0.21.1
+black==23.11.0
+flake8==6.1.0
+mypy==1.7.0
